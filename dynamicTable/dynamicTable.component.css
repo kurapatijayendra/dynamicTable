@@ -1,0 +1,22 @@
+
+table,tr,td,th{
+    padding:10px;
+}
+table{
+    border:1px solid black; 
+    text-align:center; 
+    border-collapse:collapse;
+}
+th {
+background-color:#c4c7c2;
+color:black
+}
+
+td{
+    background-color:white;
+    color:black;
+}
+
+.tab{
+    margin-top:10px;
+}

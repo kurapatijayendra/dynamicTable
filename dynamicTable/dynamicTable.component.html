@@ -1,0 +1,15 @@
+
+
+<div class="tab"  *ngIf="dataSource.name && dataSource.location">
+<table width="50%" >
+    <tr>
+        <th>Name</th>
+        <th>Location</th>
+    </tr>
+    <tr >
+        <td>{{dataSource.name | titlecase}}</td>
+        <td>{{dataSource.location | titlecase}}</td>
+    </tr>
+</table>
+
+</div>
